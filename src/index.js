@@ -240,7 +240,7 @@ export default class ReactTable extends Methods(Lifecycle(Component)) {
 
       return (
         <ThComponent
-          key={`${i}-${column.id}`}
+          key={`${column.id}`}
           className={classnames(classes)}
           style={{
             ...styles,
@@ -320,7 +320,7 @@ export default class ReactTable extends Methods(Lifecycle(Component)) {
 
       return (
         <ThComponent
-          key={`${i}-${column.id}`}
+          key={`${column.id}`}
           className={classnames(
             classes,
             isResizable && 'rt-resizable-header',
@@ -410,7 +410,7 @@ export default class ReactTable extends Methods(Lifecycle(Component)) {
 
       return (
         <ThComponent
-          key={`${i}-${column.id}`}
+          key={`${column.id}`}
           className={classnames(classes)}
           style={{
             ...styles,
